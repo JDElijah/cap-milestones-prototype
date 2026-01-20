@@ -55,8 +55,21 @@ export const MILESTONE: Milestone[] = [
     checkpoints: [
       { id: "counselor-check", label: "Meet with your counselor to check progress toward graduation and/or transfer." }, 
       { id: "transfer-center", label: "Learn about transfer options and use Transfer Center services.", tags: ["transfer"] }, 
-      { id: }
-    ]
-  }
+      { id: "apply-universities", label: "Apply to universities.", tags: ["transfer"] },
+      { id: "apply-internshpips", label: "Apply to internships.", tags: ["transfer"] }, 
+      { id: "career-toolkit", label: "Follow the steps in the career toolkit (resume, interviews, job applications).", tags: ["career"] },
+    ],
+  },
 
+  {
+    id: "60-units", 
+    title: "At or Near 60 Units (Graduate and/or Transfer)", 
+    checkpoints: [
+      { id: "apply-degree", label: "Apply for your degree or certificate and meet with your counselor to confirm requirements." },
+      { id: "career-toolkit-2", label: "If entering career: follow the Career Toolkit steps (resume, interview practice, job applications).", tags: ["career"] },
+      { id: "transfer-verify", label: "If transferring: verify you submitted all required documents for your university application.", tags: ["transfer"] },
+      { id: "university-research", label: "If transferring: explore your university’s tutoring, communities/clubs, and supports.", tags: ["transfer"] },
+      { id: "celebrate", label: "Attend your graduation ceremony and celebrate." },
+    ],
+  },
 ];
