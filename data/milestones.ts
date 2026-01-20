@@ -13,7 +13,7 @@ export type Milestone = {
   checkpoints: Checkpoint[];
 };
 
-export const MILESTONE: Milestone[] = [
+export const MILESTONES: Milestone[] = [
   {
     id: "ever-semester",
     title: "Every Semester",
